@@ -8,7 +8,7 @@ Name: thumbslug-deps
 Summary: Build dependencies for Thumbslug
 Group: Internet/Applications
 License: Various
-Version: 0.0.3
+Version: 0.0.4
 Release: 1%{?dist}
 URL: http://fedorahosted.org/thumbslug
 Source: %{name}-%{version}.tar.gz
@@ -36,6 +36,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/thumbslug/lib/
 
 %changelog
+* Tue Jul 12 2011 Chris Duryee (beav) <cduryee@redhat.com>
+- add files (cduryee@redhat.com)
+
 * Tue Jul 12 2011 Chris Duryee (beav) <cduryee@redhat.com>
 - new package built with tito
 
