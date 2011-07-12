@@ -1,14 +1,15 @@
 THUMBSLUG-DEPS
 ---------------
 This project contains the java dependencies for project thumbslug,
-used to build the thumbslug rpm.
+used to build the thumbslug rpm. It is heavily based on candlepin-deps
+by Jesus Rodriguez.
 
 https://fedorahosted.org/thumbslug/
 
 REFRESH THE JARS
 -----------------
-cd ~/path/to/thumbslug/proxy
-buildconf/scripts/createcpdeps.sh /path/to/thumbslug-deps/
+cd ~/path/to/thumbslug
+buildconf/scripts/createtsdeps.sh /path/to/thumbslug-deps/
 cd /path/to/thumbslug-deps
 
 # now check to see what changed
