@@ -8,7 +8,7 @@ Name: thumbslug-deps
 Summary: Build dependencies for Thumbslug
 Group: Internet/Applications
 License: Various
-Version: 0.0.6
+Version: 0.0.7
 Release: 1%{?dist}
 URL: http://fedorahosted.org/thumbslug
 Source: %{name}-%{version}.tar.gz
@@ -36,6 +36,10 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/thumbslug/lib/
 
 %changelog
+* Wed Nov 16 2011 jesus m. rodriguez <jesusr@redhat.com> 0.0.7-1
+- add in oauth support for thumbslug (jesusr@redhat.com)
+- use proper dist-cvs branch (jesusr@redhat.com)
+
 * Tue Oct 11 2011 jesus m. rodriguez <jesusr@redhat.com> 0.0.6-1
 - use correct dist-cvs branch (jesusr@redhat.com)
 
