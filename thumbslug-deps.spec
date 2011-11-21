@@ -8,7 +8,7 @@ Name: thumbslug-deps
 Summary: Build dependencies for Thumbslug
 Group: Internet/Applications
 License: Various
-Version: 0.0.7
+Version: 0.0.8
 Release: 1%{?dist}
 URL: http://fedorahosted.org/thumbslug
 Source: %{name}-%{version}.tar.gz
@@ -36,6 +36,9 @@ rm -rf $RPM_BUILD_ROOT
 %{_datadir}/thumbslug/lib/
 
 %changelog
+* Mon Nov 21 2011 jesus m. rodriguez <jmrodri@gmail.com> 0.0.8-1
+- upgrading to akuma 1.7 (jmrodri@gmail.com)
+
 * Wed Nov 16 2011 jesus m. rodriguez <jesusr@redhat.com> 0.0.7-1
 - add in oauth support for thumbslug (jesusr@redhat.com)
 - use proper dist-cvs branch (jesusr@redhat.com)
